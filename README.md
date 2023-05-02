@@ -1,8 +1,6 @@
 # Class-Incremental Learning with Causal Relational Replay (CRR)
 
-This is the Pytorch implementation of the paper: Class-Incremental Learning with Causal Relational Replay, in submission for IJCAI-2022.
-
-**Paper title**: Class-Incremental Learning with Causal Relational Replay (CRR)
+This is the Pytorch implementation of the paper: Class-Incremental Learning with Causal Relational Replay.
 
 ## Installation and Usage.
 1. Install the dependencies
