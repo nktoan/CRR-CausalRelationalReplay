@@ -20,3 +20,6 @@ python ./utils/main.py --model crr --seed 2711 --end_lr 0.32 --dataset seq-cifar
 ```bash
 python ./utils/main.py --model crr --seed 2711 --end_lr 0.36 --dataset seq-core50 --buffer_size 600 --lr 0.9 --batch_size 48 --minibatch_size 48 --batch_size_test 48 --n_epochs 15 --alpha 0.75 --beta 1.75 --gamma 1.25 --csv_log
 ```
+## Acknowledge: 
+
+Mammoth - An Extendible (General) Continual Learning Framework for Pytorch ([link](https://github.com/aimagelab/mammoth)).
