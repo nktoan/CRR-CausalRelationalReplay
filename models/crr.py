@@ -48,12 +48,12 @@ def get_parser() -> ArgumentParser:
     add_management_args(parser)
     add_experiment_args(parser)
     add_rehearsal_args(parser)
-    parser.add_argument('--alpha', type=float, default = 1.2,
+    parser.add_argument('--alpha', type=float, default = 0.75,
+                        help='Penalty weight for current pairs (intrinsic relation).')
+    parser.add_argument('--beta', type=float, default = 1.75,
                         help='Penalty weight for old pairs replay.')
-    parser.add_argument('--beta', type=float, default = 1.5,
-                        help='Penalty weight for old pairs distillation.')
-    parser.add_argument('--gamma', type=float, default = 0.002,
-                        help='Hyperparameters for MMD-critic.')
+    parser.add_argument('--gamma', type=float, default = 1.25,
+                        help='Penalty weight for old pairs (intrinsic relation).')
     parser.add_argument('--end_lr', type=float, default = 0.42,
                         help='The final learning rate after n tasks.')
 
