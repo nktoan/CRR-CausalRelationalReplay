@@ -1,6 +1,6 @@
 # Class-Incremental Learning with Causal Relational Replay (CRR)
 
-This is the Pytorch implementation of the paper: Class-Incremental Learning with Causal Relational Replay.
+This repository hosts the codebase corresponding to our paper, currently under review, titled **'Class-Incremental Learning with Causal Relational Replay'**.
 
 ## Installation and Usage.
 1. Install the dependencies
@@ -22,4 +22,5 @@ python ./utils/main.py --model crr --seed 2711 --end_lr 0.36 --dataset seq-core5
 ```
 ## Acknowledge: 
 
-Mammoth - An Extendible (General) Continual Learning Framework for Pytorch ([link](https://github.com/aimagelab/mammoth)).
+We have built our implementation using the Mammoth toolbox and express our gratitude to the authors for providing an excellent repository:
+- Mammoth - An Extendible (General) Continual Learning Framework for Pytorch ([link](https://github.com/aimagelab/mammoth)).
