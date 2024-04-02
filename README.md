@@ -1,6 +1,6 @@
 # Class-Incremental Learning with Causal Relational Replay (CRR)
 
-This repository hosts the codebase corresponding to our paper, currently under review, titled **'Class-Incremental Learning with Causal Relational Replay'**.
+This repository hosts the codebase corresponding to our paper, titled **'Class-Incremental Learning with Causal Relational Replay'**, published at Expert Systems With Applications.
 
 ## Installation and Usage.
 1. Install the dependencies
