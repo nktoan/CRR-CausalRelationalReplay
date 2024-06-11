@@ -24,3 +24,18 @@ python ./utils/main.py --model crr --seed 2711 --end_lr 0.36 --dataset seq-core5
 
 We have built our implementation using the Mammoth toolbox and express our gratitude to the authors for providing an excellent repository:
 - Mammoth - An Extendible (General) Continual Learning Framework for Pytorch ([link](https://github.com/aimagelab/mammoth)).
+
+## Citation
+
+If you employ the codes or datasets provided in this repository or utilise our proposed method as comparison baselines in your experiments, please cite our paper. Again, thank you for your interest!
+```
+@article{nguyen2024class,
+  title={Class-incremental learning with causal relational replay},
+  author={Nguyen, Toan and Kieu, Duc and Duong, Bao and Kieu, Tung and Do, Kien and Nguyen, Thin and Le, Bac},
+  journal={Expert Systems with Applications},
+  volume={250},
+  pages={123901},
+  year={2024},
+  publisher={Elsevier}
+}
+```
